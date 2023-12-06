@@ -15,6 +15,8 @@ public class Ejemplo04 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        //esta forma del for se usa para restarle a una cadena de 2 en 2
+        //la cadena decrece
         
         for (int i = 20; i >= 0; i-=2) {
             System.out.printf("%d\n", i);
