@@ -15,6 +15,7 @@ public class Ejemplo02 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        //se usa para presentar una cadena de dos en dos
         
         for (int i = 1; i <= 10; i+=2) {
             System.out.printf("%d\n", i);
