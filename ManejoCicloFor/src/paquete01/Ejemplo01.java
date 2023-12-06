@@ -15,14 +15,16 @@ public class Ejemplo01 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        String acumulador = "";
 
         for (int i = 1; i <= 10; i++) {
-            System.out.printf("%d", i);
+            acumulador = String.format("%s%d",acumulador, i);
         }
         
         for (int i = 1; i < 11; i++) {
-            System.out.printf("%d", i);
+            acumulador = String.format("%s%d",acumulador, i);
         }
+        System.out.printf("%s",acumulador);
 
     }
 
